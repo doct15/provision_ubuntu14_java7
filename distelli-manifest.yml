@@ -1,7 +1,7 @@
 bmcgeheeswati/provision_ubuntu14_java7:
   Env:
     - CATALINA_HOME: "/usr/local/tomcat"
-    - JAVA_HOME: "/usr/lib/jvm/jre"
+    - JAVA_HOME: "/usr/lib/jvm/java-7-oracle"
     - PATH: "$CATALINA_HOME/bin:$JAVA_HOME/bin:$PATH"
   Build:
     - echo "Nothing to Build"
